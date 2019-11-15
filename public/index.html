@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to Firebase Hosting</title>
+    <link rel="stylesheet" type="text/css" href="myStyle.css">
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/7.4.0/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/7.4.0/firebase-auth.js"></script>
+    <script defer src="/__/firebase/7.4.0/firebase-database.js"></script>
+    <script defer src="/__/firebase/7.4.0/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/7.4.0/firebase-storage.js"></script>
+    <script defer src="/__/firebase/7.3.0/firebase-firestore.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script defer src="/__/firebase/init.js"></script>
+
+  <button onclick = "googleLogin()"></button>
+  </head>
+  <body>
+  <script src="/__/firebase/7.3.0/firebase-app.js"></script>
+
+  <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+  <script src="/__/firebase/7.3.0/firebase-analytics.js"></script>
+
+  <!-- Add Firebase products that you want to use -->
+  <script src="/__/firebase/7.3.0/firebase-auth.js"></script>
+  <script src="/__/firebase/7.3.0/firebase-firestore.js"></script>
+    <script src = "app.js">
+    </script>
+    <h1>HANGMAN</h1>
+    <h1 id="recordHeader">Record: </h1>
+    <p id = "textofstarting">Game Themes (won't affect gameplay) </p>
+    <button type = "button" class="themes" id="zombie" onclick= "zombie()">zombie</button>
+    <button type = "button" class="themes" id="classic" onclick= "classic()">classic</button>
+    <button type = "button" class="themes" id="monster" onclick= "monster()">monster</button>
+    <br>
+    <button type = "button" class="playerOp" id="sPlayer" onclick= "singlePlayer()">Single Player</button>
+    <button type = "button" class="playerOp1" id="2Player" onclick= "twoPlayer()">Local Two Player</button>
+    <p id = "starterText">Choose a difficulty:</p>
+    <button type = "button" class="Diff" id="easy" onclick= "easy()">easy</button>
+    <button type = "button" class="Diff" id="medium" onclick= "medium()">medium</button>
+    <button type = "button" class="Diff" id="hard" onclick= "hard()">hard</button>
+    <button type = "button" class="Diff" id="extreme" onclick= "extreme()">extreme</button>
+    <button type = "button" class="Diff" id="random" onclick= "rDiff()">random difficulty</button>
+    <br>
+    <p id = "game">Game Controls(they'll appear after you choose a difficulty)</p>
+    <button type = "button" class="gameC" id="setUp" onclick= "setUp()">generate word</button>
+    <button type = "button" class="gameC" id="start" onclick= "start()">guess a letter</button>
+    <button type = "button" class="gameC" id="restart" onclick= "restart()">restart game</button>
+    <button type = "button" class="gameC" id="theme" onclick= "changeTheme()">change theme</button>
+    <p id = "display"></p>
+    <p id = "category"></p>
+    <p id = "display2"></p>
+    <p id = "display3"></p>
+    <p id = "display4"></p>
+    <p id = "display6"></p>
+    <p id = "display5"></p>
+    <p id = "display7"></p>
+    <img src="resources/stage.PNG" id="faces" width="400" height="500">
+
+  </body>
+</html>

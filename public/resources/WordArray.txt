@@ -1,0 +1,9 @@
+"cat", "dog", "fish","fox","fly","zebra", "tiger", "puppy","sheep","horse","jaguar", "walrus", "bobcat","rabbit","donkey","brachiosaurus", "velociraptor", "pterodactyl","ankylosaurus","spinosaurus”,"app", "ram", "roms","web","net”,"apple","files","folder","circuit","monitor”,"binary", "bases", "lossy","software","hardware”,"hexadecimal", "compression", "lossless", "motherboard","transistor”,"math", "read", "pen","book","gym”,"pencil","class","grade","teacher","locker”,”science", "writing", "atlas","english","campus”,"thesaurus","dictionary","assignment","vocabulary","encyclopedia"
+
+
+
+
+
+
+
+

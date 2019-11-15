@@ -1,0 +1,128 @@
+body {
+    background-color: #7e1f00;
+    color: #e4a90f;
+    text-align: center;
+}
+#display {
+    font-size: 30px;
+    border-radius: 5px;
+}
+#easy {
+    height: 25px;
+    border-radius: 5px;
+    background-color: lightgreen;
+    border-color: lightgreen;
+    visibility: hidden;
+}
+#medium {
+    height: 25px;
+    border-radius: 5px;
+    background-color: orange;
+    border-color: orange;
+    visibility: hidden;
+}
+#hard {
+    height: 25px;
+    border-radius: 5px;
+    background-color: red;
+    border-color: red;
+    visibility: hidden;
+}
+#extreme {
+    height: 25px;
+    border-radius: 5px;
+    background-color: black;
+    border-color: black;
+    color: white;
+    visibility: hidden;
+}
+#random {
+    height: 25px;
+    border-radius: 5px;
+    background-color: white;
+    border-color: white;
+    color: black;
+    visibility: hidden;
+}
+.gameC {
+    border-radius: 5px;
+    height: 25px;
+    background-color: goldenrod;
+    border-color: goldenrod;
+}
+.gameC:hover {
+    background-color: darkgoldenrod;
+    border-color: darkgoldenrod;
+}
+#extreme:hover {
+    background-color: #55555a;
+    border-color: #55555a;
+}
+#random:hover {
+    background-color: #d4d4d4;
+    border-color: #d4d4d4;
+}
+#hard:hover {
+    border-color: darkred;
+    background-color: darkred;
+}
+#medium:hover {
+    border-color: #d28a06;
+    background-color: #d28a06;
+}
+#easy:hover {
+    border-color: #9bff9b;
+    background-color:  #9bff9b;
+}
+#start {
+    visibility: hidden;
+}
+#restart {
+    visibility: hidden;
+}
+#setUp {
+    visibility: hidden;
+}
+
+#starterText {
+    visibility: hidden;
+}
+.playerOp {
+    border-radius: 5px;
+    height: 25px;
+    background-color: orchid;
+    border-color:orchid;
+    visibility: hidden;
+}
+.playerOp1 {
+    border-radius: 5px;
+    height: 25px;
+    background-color: blueviolet;
+    border-color:blueviolet;
+    visibility: hidden;
+}
+.themes {
+    border-radius: 5px;
+    height: 25px
+}
+#classic {
+    border-color: black;
+    background-color: black;
+    color: aliceblue;
+}
+#monster {
+    background-color: #004500;
+    border-color: #004500 ;
+    color: #8fe38f;
+}
+#zombie {
+    background-color: #004500;
+    border-color: #004500 ;
+    color: #8fe38f;
+}
+#game {
+    visibility: hidden;
+}
+#theme {
+    visibility: hidden;
+}
